@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/alta_alumno"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="@string/alta_alumno" />
+        <item
+            android:id="@+id/alta_agenda"
+            android:icon="@drawable/ic_perm_contact_calendar_black_24dp"
+            android:title="@string/agenda" />
+        <item
+            android:id="@+id/alta_pagos"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="@string/pagos" />
+        <item
+            android:id="@+id/alta_consultas"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="@string/consultas" />
+
+    </group>
+
+    <item android:title="@string/herramientas">
+        <menu>
+            <item
+                android:id="@+id/alta_estadistica"
+                android:icon="@drawable/ic_menu_black_24dp"
+                android:title="@string/estad_stica" />
+            <item
+                android:id="@+id/alta_excel"
+                android:icon="@drawable/ic_file_download_black_24dp"
+                android:title="@string/exportar_excel" />
+        </menu>
+    </item>
+
+</menu>
