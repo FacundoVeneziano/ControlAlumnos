@@ -1,4 +1,17 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral() // add repository
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2'
+    }
+}
 
 android {
     compileSdkVersion 28
