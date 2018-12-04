@@ -17,4 +17,5 @@
     <string name="herramientas">Herramientas</string>
     <string name="estad_stica">Estadìstica</string>
     <string name="exportar_excel">Exportar Excel</string>
+    <string name="importar_archivo">Importar</string>
 </resources>
